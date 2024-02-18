@@ -1012,6 +1012,30 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj
+
+# target to build an object file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i
+
+# target to preprocess a source file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s
+
+# target to generate assembly for a file
+C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+.PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+
 C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
@@ -1849,6 +1873,9 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.i
+	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.s
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s

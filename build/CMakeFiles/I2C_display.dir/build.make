@@ -1065,6 +1065,20 @@ CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c -o CMakeFiles\I2C_display.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
 
+CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/I2C_display.dir/flags.make
+CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/I2C_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\PI_PICO_PROJECTS\I2C_display\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles\I2C_display.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj.d -o CMakeFiles\I2C_display.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj -c C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c
+
+CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c > CMakeFiles\I2C_display.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+
+CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c -o CMakeFiles\I2C_display.dir\C_\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
+
 # Object files for target I2C_display
 I2C_display_OBJECTS = \
 "CMakeFiles/I2C_display.dir/main.c.obj" \
@@ -1138,7 +1152,8 @@ I2C_display_OBJECTS = \
 "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
 
 # External object files for target I2C_display
 I2C_display_EXTERNAL_OBJECTS =
@@ -1215,11 +1230,12 @@ I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyu
 I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/build.make
 I2C_display.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 I2C_display.elf: CMakeFiles/I2C_display.dir/objects1.rsp
 I2C_display.elf: CMakeFiles/I2C_display.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\VSARM\PI_PICO_PROJECTS\I2C_display\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable I2C_display.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\VSARM\PI_PICO_PROJECTS\I2C_display\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking CXX executable I2C_display.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\I2C_display.dir\link.txt --verbose=$(VERBOSE)
 	"C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex C:/VSARM/PI_PICO_PROJECTS/I2C_display/build/I2C_display.elf I2C_display.hex
 	"C:\VSARM\armcc\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary C:/VSARM/PI_PICO_PROJECTS/I2C_display/build/I2C_display.elf I2C_display.bin
