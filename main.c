@@ -1,6 +1,6 @@
 #include "pico/stdlib.h"
 #include "lcd_lib/lcd_1602_i2c.h"
-
+//lcd lib
 int main()
 {
     // This example will use I2C0 on the default SDA and SCL pins (4, 5 on a Pico)
