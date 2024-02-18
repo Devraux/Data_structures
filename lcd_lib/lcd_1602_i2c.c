@@ -67,6 +67,16 @@ void lcd_string(const char *s) {
 }
 
 void lcd_init() {
+
+    // This example will use I2C0 on the default SDA and SCL pins (4, 5 on a Pico)
+    i2c_init(i2c_default, 100 * 1000);
+    gpio_set_function(PICO_DEFAULT_I2C_SDA_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C);
+    gpio_pull_up(PICO_DEFAULT_I2C_SDA_PIN);
+    gpio_pull_up(PICO_DEFAULT_I2C_SCL_PIN);
+    // Make the I2C pins available to picotool
+    bi_decl(bi_2pins_with_func(PICO_DEFAULT_I2C_SDA_PIN, PICO_DEFAULT_I2C_SCL_PIN, GPIO_FUNC_I2C));
+
     lcd_send_byte(0x03, LCD_COMMAND);
     lcd_send_byte(0x03, LCD_COMMAND);
     lcd_send_byte(0x03, LCD_COMMAND);

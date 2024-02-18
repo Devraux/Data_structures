@@ -1660,6 +1660,30 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+encoder_lib/encoder.obj: encoder_lib/encoder.c.obj
+.PHONY : encoder_lib/encoder.obj
+
+# target to build an object file
+encoder_lib/encoder.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj
+.PHONY : encoder_lib/encoder.c.obj
+
+encoder_lib/encoder.i: encoder_lib/encoder.c.i
+.PHONY : encoder_lib/encoder.i
+
+# target to preprocess a source file
+encoder_lib/encoder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.i
+.PHONY : encoder_lib/encoder.c.i
+
+encoder_lib/encoder.s: encoder_lib/encoder.c.s
+.PHONY : encoder_lib/encoder.s
+
+# target to generate assembly for a file
+encoder_lib/encoder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.s
+.PHONY : encoder_lib/encoder.c.s
+
 lcd_lib/lcd_1602_i2c.obj: lcd_lib/lcd_1602_i2c.c.obj
 .PHONY : lcd_lib/lcd_1602_i2c.obj
 
@@ -1906,6 +1930,9 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... encoder_lib/encoder.obj
+	@echo ... encoder_lib/encoder.i
+	@echo ... encoder_lib/encoder.s
 	@echo ... lcd_lib/lcd_1602_i2c.obj
 	@echo ... lcd_lib/lcd_1602_i2c.i
 	@echo ... lcd_lib/lcd_1602_i2c.s

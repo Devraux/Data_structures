@@ -9,7 +9,8 @@ pico_sdk_init()
 
 add_executable(${PROJECT_NAME} 
     main.c
-    lcd_lib/lcd_1602_i2c.c )
+    lcd_lib/lcd_1602_i2c.c
+    encoder_lib/encoder.c)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(${PROJECT_NAME} 1)
