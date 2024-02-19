@@ -183,6 +183,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/PI_PICO_PROJECTS/I2C_display/buttons/buttons.c" "CMakeFiles/I2C_display.dir/buttons/buttons.c.obj" "gcc" "CMakeFiles/I2C_display.dir/buttons/buttons.c.obj.d"
   "C:/VSARM/PI_PICO_PROJECTS/I2C_display/lcd_lib/lcd_1602_i2c.c" "CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj" "gcc" "CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj.d"
   "C:/VSARM/PI_PICO_PROJECTS/I2C_display/main.c" "CMakeFiles/I2C_display.dir/main.c.obj" "gcc" "CMakeFiles/I2C_display.dir/main.c.obj.d"
+  "C:/VSARM/PI_PICO_PROJECTS/I2C_display/menu/menu.c" "CMakeFiles/I2C_display.dir/menu/menu.c.obj" "gcc" "CMakeFiles/I2C_display.dir/menu/menu.c.obj.d"
   "C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

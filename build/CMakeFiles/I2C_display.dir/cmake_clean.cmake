@@ -134,6 +134,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj.d"
   "CMakeFiles/I2C_display.dir/main.c.obj"
   "CMakeFiles/I2C_display.dir/main.c.obj.d"
+  "CMakeFiles/I2C_display.dir/menu/menu.c.obj"
+  "CMakeFiles/I2C_display.dir/menu/menu.c.obj.d"
   "I2C_display.elf"
   "I2C_display.elf.manifest"
   "I2C_display.pdb"
