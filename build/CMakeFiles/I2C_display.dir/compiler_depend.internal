@@ -3114,6 +3114,7 @@ CMakeFiles/I2C_display.dir/main.c.obj
  C:/VSARM/PI_PICO_PROJECTS/I2C_display/build/generated/pico_base/pico/version.h
  C:/VSARM/PI_PICO_PROJECTS/I2C_display/buttons/buttons.h
  C:/VSARM/PI_PICO_PROJECTS/I2C_display/lcd_lib/lcd_1602_i2c.h
+ C:/VSARM/PI_PICO_PROJECTS/I2C_display/menu/menu.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
  C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h

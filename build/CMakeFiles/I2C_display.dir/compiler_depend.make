@@ -3052,6 +3052,7 @@ CMakeFiles/I2C_display.dir/main.c.obj: C:/VSARM/PI_PICO_PROJECTS/I2C_display/mai
   generated/pico_base/pico/version.h \
   C:/VSARM/PI_PICO_PROJECTS/I2C_display/buttons/buttons.h \
   C:/VSARM/PI_PICO_PROJECTS/I2C_display/lcd_lib/lcd_1602_i2c.h \
+  C:/VSARM/PI_PICO_PROJECTS/I2C_display/menu/menu.h \
   C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico.h \
   C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
   C:/VSARM/sdk/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
@@ -3370,6 +3371,8 @@ C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
 C:/VSARM/sdk/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
 
 C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
+
+C:/VSARM/PI_PICO_PROJECTS/I2C_display/menu/menu.h:
 
 C:/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c:
 

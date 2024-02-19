@@ -1218,9 +1218,9 @@ Discarded input sections
  .comment       0x00000000       0x4a CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
- .text          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc8nxfc8.o
- .data          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc8nxfc8.o
- .bss           0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc8nxfc8.o
+ .text          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc4IUTgd.o
+ .data          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc4IUTgd.o
+ .bss           0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc4IUTgd.o
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-calloc.o)
@@ -1436,11 +1436,11 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\krzys\AppData\Local\Temp\cc8nxfc8.o
+ .boot2         0x10000000      0x100 C:\Users\krzys\AppData\Local\Temp\cc4IUTgd.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x7070
+.text           0x10000100     0x7078
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1502,617 +1502,618 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x100002bc       0x48 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000304       0x54 CMakeFiles/I2C_display.dir/main.c.obj
+                0x10000304       0x58 CMakeFiles/I2C_display.dir/main.c.obj
                 0x10000304                main
  .text.lcd_send_byte
-                0x10000358      0x100 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
-                0x10000358                lcd_send_byte
+                0x1000035c      0x100 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x1000035c                lcd_send_byte
  .text.lcd_clear
-                0x10000458        0xc CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
-                0x10000458                lcd_clear
+                0x1000045c        0xc CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x1000045c                lcd_clear
  .text.lcd_set_cursor
-                0x10000464       0x18 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
-                0x10000464                lcd_set_cursor
+                0x10000468       0x18 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x10000468                lcd_set_cursor
  .text.lcd_string
-                0x1000047c       0x1c CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
-                0x1000047c                lcd_string
+                0x10000480       0x1c CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x10000480                lcd_string
  .text.lcd_init
-                0x10000498       0x78 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
-                0x10000498                lcd_init
+                0x1000049c       0x78 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x1000049c                lcd_init
  .text.irq_handler
-                0x10000510       0x80 CMakeFiles/I2C_display.dir/buttons/buttons.c.obj
-                0x10000510                irq_handler
+                0x10000514       0x80 CMakeFiles/I2C_display.dir/buttons/buttons.c.obj
+                0x10000514                irq_handler
  .text.buttons_init
-                0x10000590       0x78 CMakeFiles/I2C_display.dir/buttons/buttons.c.obj
-                0x10000590                buttons_init
+                0x10000594       0x78 CMakeFiles/I2C_display.dir/buttons/buttons.c.obj
+                0x10000594                buttons_init
  .text.gpio_default_irq_handler
-                0x10000608      0x248 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000060c      0x248 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_function
-                0x10000850       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000850                gpio_set_function
+                0x10000854       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000854                gpio_set_function
  .text.gpio_set_pulls
-                0x10000880       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000880                gpio_set_pulls
+                0x10000884       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000884                gpio_set_pulls
  .text.gpio_set_irq_enabled_with_callback
-                0x100008b0       0xb0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100008b0                gpio_set_irq_enabled_with_callback
+                0x100008b4       0xb0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100008b4                gpio_set_irq_enabled_with_callback
  .text.gpio_init
-                0x10000960       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000960                gpio_init
+                0x10000964       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000964                gpio_init
  .text.running_on_fpga
-                0x1000099c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x1000099c                running_on_fpga
+                0x100009a0       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100009a0                running_on_fpga
  .text.hw_claim_or_assert
-                0x100009ac       0x44 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100009ac                hw_claim_or_assert
+                0x100009b0       0x44 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100009b0                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x100009f0       0x9c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100009f0                hw_claim_unused_from_range
+                0x100009f4       0x9c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x100009f4                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x10000a8c       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000a8c                spin_locks_reset
+                0x10000a90       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000a90                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000aa8       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000aa8                next_striped_spin_lock_num
+                0x10000aac       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000aac                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000ac0       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000ac0                spin_lock_claim_unused
+                0x10000ac4       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000ac4                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000ae0       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ae0                irq_set_enabled
+                0x10000ae4       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ae4                irq_set_enabled
  .text.irq_set_pending
-                0x10000b04       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b04                irq_set_pending
+                0x10000b08       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b08                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000b14       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b14                irq_has_shared_handler
+                0x10000b18       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b18                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x10000b40       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b40                irq_get_vtable_handler
+                0x10000b44       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b44                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000b50       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000b50                irq_set_exclusive_handler
+                0x10000b54       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000b54                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000ba4      0x1e8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ba4                irq_add_shared_handler
+                0x10000ba8      0x1e8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ba8                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000d8c      0x1b0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d8c                irq_remove_handler
+                0x10000d90      0x1b0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d90                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000f3c       0xb4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000f3c                irq_add_tail_to_free_list
+                0x10000f40       0xb4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000f40                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000ff0       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ff0                irq_init_priorities
+                0x10000ff4       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ff4                irq_init_priorities
  .text.user_irq_claim_unused
-                0x10001014       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001014                user_irq_claim_unused
+                0x10001018       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001018                user_irq_claim_unused
  .text.lock_init
-                0x1000103c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x1000103c                lock_init
+                0x10001040       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10001040                lock_init
  .text.mutex_init
-                0x1000104c       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000104c                mutex_init
+                0x10001050       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10001050                mutex_init
  .text.recursive_mutex_init
-                0x10001068       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001068                recursive_mutex_init
+                0x1000106c       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x1000106c                recursive_mutex_init
  .text.critical_section_init
-                0x10001084       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001084                critical_section_init
+                0x10001088       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x10001088                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x100010a4       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x100010a4                critical_section_init_with_lock_num
+                0x100010a8       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x100010a8                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x100010b8       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100010b8                timer_pool_entry_comparator
+                0x100010bc       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010bc                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100010ec       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010f0       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x1000111c      0x100 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001120      0x100 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x1000121c      0x1bc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001220      0x1bc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x100013d8       0x6c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100013d8                alarm_pool_init_default
+                0x100013dc       0x6c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100013dc                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001444        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001444                alarm_pool_get_default
+                0x10001448        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001448                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x1000144c      0x178 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000144c                alarm_pool_add_alarm_at
+                0x10001450      0x178 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001450                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x100015c4        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015c4                alarm_pool_core_num
+                0x100015c8        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100015c8                alarm_pool_core_num
  .text.sleep_until
-                0x100015c8       0xc4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015c8                sleep_until
+                0x100015cc       0xc4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100015cc                sleep_until
  .text.sleep_us
-                0x1000168c       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000168c                sleep_us
+                0x10001690       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001690                sleep_us
  .text.sleep_ms
-                0x100016b0       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100016b0                sleep_ms
+                0x100016b4       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100016b4                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x100016e4       0xd4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100016e4                best_effort_wfe_or_timeout
+                0x100016e8       0xd4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100016e8                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x100017b8       0xbc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100017bc       0xbc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001874       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001874                hardware_alarm_claim
+                0x10001878       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001878                hardware_alarm_claim
  .text.time_us_64
-                0x1000188c       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000188c                time_us_64
+                0x10001890       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001890                time_us_64
  .text.busy_wait_until
-                0x100018a0       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100018a0                busy_wait_until
+                0x100018a4       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100018a4                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100018c0       0x8c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100018c0                hardware_alarm_set_callback
+                0x100018c4       0x8c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100018c4                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x1000194c       0xd4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000194c                hardware_alarm_set_target
+                0x10001950       0xd4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001950                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001a20       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a20                hardware_alarm_cancel
+                0x10001a24       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001a24                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001a5c       0x68 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a60       0x68 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001ac4       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ac4                ph_post_alloc_init
+                0x10001ac8       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ac8                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001b00       0x90 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001b00                ph_merge_two_pass
+                0x10001b04       0x90 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b04                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001b90      0x100 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001b94      0x100 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001c90      0x104 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001c90                ph_remove_head
+                0x10001c94      0x104 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001c94                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001d94       0x7c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001d94                ph_remove_and_free_node
+                0x10001d98       0x7c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001d98                ph_remove_and_free_node
  .text.clocks_init
-                0x10001e10      0x2d0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001e10                clocks_init
+                0x10001e14      0x2d0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001e14                clocks_init
  .text.clock_get_hz
-                0x100020e0        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100020e0                clock_get_hz
+                0x100020e4        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100020e4                clock_get_hz
  .text.pll_init
-                0x100020ec       0xa0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x100020ec                pll_init
+                0x100020f0       0xa0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x100020f0                pll_init
  .text.watchdog_start_tick
-                0x1000218c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000218c                watchdog_start_tick
+                0x10002190       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002190                watchdog_start_tick
  .text.watchdog_reboot
-                0x1000219c       0x98 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000219c                watchdog_reboot
+                0x100021a0       0x98 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100021a0                watchdog_reboot
  .text.xosc_init
-                0x10002234       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10002234                xosc_init
+                0x10002238       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002238                xosc_init
  .text.runtime_init
-                0x1000225c       0xf0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000225c                runtime_init
- .text._exit    0x1000234c        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000234c                _exit
- .text.exit     0x10002350        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002350                exit
- .text.panic    0x10002358       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002358                panic
+                0x10002260       0xf0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002260                runtime_init
+ .text._exit    0x10002350        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002350                _exit
+ .text.exit     0x10002354        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002354                exit
+ .text.panic    0x1000235c       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000235c                panic
  .text.hard_assertion_failure
-                0x10002388        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002388                hard_assertion_failure
+                0x1000238c        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000238c                hard_assertion_failure
  .text._out_buffer
-                0x10002394        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002398        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x1000239c        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023a0        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x100023a0       0x9c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100023a4       0x9c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x1000243c      0x1cc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002440      0x1cc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002608       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000260c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10002618       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002628      0x44c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002a74      0x398 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000261c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x1000262c      0x44c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002a78      0x398 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002e0c      0xb04 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002e10      0xb04 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
-                0x10003910       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003910                __wrap_sprintf
+                0x10003914       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003914                __wrap_sprintf
  .text.vfctprintf
-                0x10003938       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003938                vfctprintf
+                0x1000393c       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000393c                vfctprintf
  .text.weak_raw_vprintf
-                0x10003958       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003958                weak_raw_vprintf
- .text          0x10003988       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x1000395c       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000395c                weak_raw_vprintf
+ .text          0x1000398c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003998       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003998                rom_func_lookup
+                0x1000399c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x1000399c                rom_func_lookup
  .text.rom_data_lookup
-                0x100039a8       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100039a8                rom_data_lookup
+                0x100039ac       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100039ac                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100039b8       0x44 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100039b8                rom_funcs_lookup
+                0x100039bc       0x44 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100039bc                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x100039fc       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100039fc                __wrap___aeabi_idivmod
-                0x100039fc                divmod_s32s32
-                0x100039fc                div_s32s32
-                0x100039fc                __wrap___aeabi_idiv
-                0x10003a04                divmod_s32s32_unsafe
-                0x10003a30                divmod_s32s32_savestate
+                0x10003a00       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003a00                __wrap___aeabi_idivmod
+                0x10003a00                divmod_s32s32
+                0x10003a00                div_s32s32
+                0x10003a00                __wrap___aeabi_idiv
+                0x10003a08                divmod_s32s32_unsafe
+                0x10003a34                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003a4c       0x4c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003a4c                __wrap___aeabi_uidiv
-                0x10003a4c                __wrap___aeabi_uidivmod
-                0x10003a4c                div_u32u32
-                0x10003a4c                divmod_u32u32
-                0x10003a54                divmod_u32u32_unsafe
-                0x10003a7c                divmod_u32u32_savestate
+                0x10003a50       0x4c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003a50                __wrap___aeabi_uidiv
+                0x10003a50                __wrap___aeabi_uidivmod
+                0x10003a50                div_u32u32
+                0x10003a50                divmod_u32u32
+                0x10003a58                divmod_u32u32_unsafe
+                0x10003a80                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003a98      0x424 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003a98                div_s64s64
-                0x10003a98                divmod_s64s64
-                0x10003a98                __wrap___aeabi_ldivmod
-                0x10003ac8                divmod_u64u64
-                0x10003ac8                div_u64u64
-                0x10003ac8                __wrap___aeabi_uldivmod
-                0x10003ad8                divmod_u64u64_savestate
-                0x10003af8                divmod_s64s64_unsafe
-                0x10003b80                divmod_u64u64_unsafe
+                0x10003a9c      0x424 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003a9c                div_s64s64
+                0x10003a9c                divmod_s64s64
+                0x10003a9c                __wrap___aeabi_ldivmod
+                0x10003acc                divmod_u64u64
+                0x10003acc                div_u64u64
+                0x10003acc                __wrap___aeabi_uldivmod
+                0x10003adc                divmod_u64u64_savestate
+                0x10003afc                divmod_s64s64_unsafe
+                0x10003b84                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003ebc       0x80 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ebc                __wrap___aeabi_drsub
-                0x10003ec2                __wrap___aeabi_dsub
-                0x10003ed4                __wrap___aeabi_dadd
-                0x10003ee6                __wrap___aeabi_ddiv
-                0x10003f22                __wrap___aeabi_dmul
+                0x10003ec0       0x80 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ec0                __wrap___aeabi_drsub
+                0x10003ec6                __wrap___aeabi_dsub
+                0x10003ed8                __wrap___aeabi_dadd
+                0x10003eea                __wrap___aeabi_ddiv
+                0x10003f26                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003f3c       0x6c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003f3c                __wrap___aeabi_cdrcmple
-                0x10003f4c                __wrap___aeabi_cdcmpeq
-                0x10003f4c                __wrap___aeabi_cdcmple
+                0x10003f40       0x6c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003f40                __wrap___aeabi_cdrcmple
+                0x10003f50                __wrap___aeabi_cdcmpeq
+                0x10003f50                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003fa8        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003fa8                __wrap___aeabi_dcmplt
+                0x10003fac        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003fac                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003fb4       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003fb4                __wrap___aeabi_dcmple
+                0x10003fb8       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003fb8                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003fc4       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003fc4                __wrap___aeabi_dcmpge
+                0x10003fc8       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003fc8                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003fd4        0xa CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003fd4                __wrap___aeabi_dcmpgt
+                0x10003fd8        0xa CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003fd8                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003fde       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003fde                __wrap___aeabi_dcmpun
- *fill*         0x10003ffa        0x2 
+                0x10003fe2       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003fe2                __wrap___aeabi_dcmpun
+ *fill*         0x10003ffe        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003ffc       0x38 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ffc                __wrap___aeabi_ui2d
-                0x10004004                __wrap___aeabi_i2d
+                0x10004000       0x38 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004000                __wrap___aeabi_ui2d
+                0x10004008                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10004034       0x48 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10004034                double2int_z
-                0x10004034                __wrap___aeabi_d2iz
+                0x10004038       0x48 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004038                double2int_z
+                0x10004038                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x1000407c       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000407c                __wrap___aeabi_d2uiz
-                0x1000407c                double2uint
+                0x10004080       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004080                __wrap___aeabi_d2uiz
+                0x10004080                double2uint
  .text.__aeabi_double_init
-                0x10004094       0x94 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10004094                __aeabi_double_init
+                0x10004098       0x94 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10004098                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10004128       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004128                double_table_shim_on_use_helper
+                0x1000412c       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x1000412c                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10004154       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004154                drsub_shim
-                0x1000415a                dsub_shim
+                0x10004158       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004158                drsub_shim
+                0x1000415e                dsub_shim
  .text.dadd_shim
-                0x10004164      0x15c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10004164                dadd_shim
+                0x10004168      0x15c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004168                dadd_shim
  .text.dmul_shim
-                0x100042c0      0x15c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100042c0                dmul_shim
+                0x100042c4      0x15c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100042c4                dmul_shim
  .text.ddiv_shim
-                0x1000441c      0x1b0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000441c                ddiv_shim
+                0x10004420      0x1b0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004420                ddiv_shim
  .text.double2uint_shim
-                0x100045cc        0xe CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100045cc                double2uint_shim
-                0x100045ce                double2ufix_shim
- *fill*         0x100045da        0x2 
+                0x100045d0        0xe CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100045d0                double2uint_shim
+                0x100045d2                double2ufix_shim
+ *fill*         0x100045de        0x2 
  .text.double2uint64_shim
-                0x100045dc       0x70 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100045dc                double2uint64_shim
-                0x100045de                double2ufix64_shim
-                0x100045fe                d2fix_a
+                0x100045e0       0x70 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100045e0                double2uint64_shim
+                0x100045e2                double2ufix64_shim
+                0x10004602                d2fix_a
  .text.dunpacks
-                0x1000464c       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000464c                dunpacks
+                0x10004650       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004650                dunpacks
  .text.__aeabi_lmul
-                0x10004688       0x32 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10004688                __wrap___aeabi_lmul
- *fill*         0x100046ba        0x2 
+                0x1000468c       0x32 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x1000468c                __wrap___aeabi_lmul
+ *fill*         0x100046be        0x2 
  .text.__aeabi_float_init
-                0x100046bc       0x64 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x100046bc                __aeabi_float_init
+                0x100046c0       0x64 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x100046c0                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10004720       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10004720                float_table_shim_on_use_helper
- .text          0x1000474c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000474c                __aeabi_mem_init
- .text.memset   0x1000475c        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000475c                __wrap_memset
- .text.memcpy   0x10004768        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10004768                __wrap_memcpy
-                0x10004768                __wrap___aeabi_memcpy
+                0x10004724       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004724                float_table_shim_on_use_helper
+ .text          0x10004750       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004750                __aeabi_mem_init
+ .text.memset   0x10004760        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004760                __wrap_memset
+ .text.memcpy   0x1000476c        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000476c                __wrap_memcpy
+                0x1000476c                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10004774       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004778       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10004784       0xb4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004788       0xb4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10004838       0x64 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000483c       0x64 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x1000489c       0xfc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100048a0       0xfc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004998       0x98 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004998                __wrap_putchar
+                0x1000499c       0x98 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000499c                __wrap_putchar
  .text.__wrap_puts
-                0x10004a30       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004a30                __wrap_puts
+                0x10004a34       0x3c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004a34                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004a6c       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004a6c                stdio_set_driver_enabled
+                0x10004a70       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004a70                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x10004a9c       0xd8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004a9c                __wrap_vprintf
+                0x10004aa0       0xd8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004aa0                __wrap_vprintf
  .text.__wrap_printf
-                0x10004b74       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004b74                __wrap_printf
+                0x10004b78       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004b78                __wrap_printf
  .text.stdio_init_all
-                0x10004b8c        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004b8c                stdio_init_all
+                0x10004b90        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004b90                stdio_init_all
  .text.resetd_init
-                0x10004b94        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b98        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10004b98        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004b9c        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10004ba4       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004ba8       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10004bcc        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004bd0        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10004bd0       0x64 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004bd4       0x64 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10004c34        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004c34                usbd_app_driver_get_cb
+                0x10004c38        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004c38                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10004c40       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10004c40                tud_cdc_line_coding_cb
+                0x10004c44       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10004c44                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10004c74       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004c74                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x10004c88       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004c78       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004c78                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x10004c8c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10004c98       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004c9c       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10004cec       0x90 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004cec                stdio_usb_in_chars
+                0x10004cf0       0x90 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004cf0                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10004d7c      0x100 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004d80      0x100 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10004e7c       0xa8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004e80       0xa8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x10004f24       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004f24                tud_cdc_rx_cb
+                0x10004f28       0x20 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004f28                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x10004f44       0xdc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10004f44                stdio_usb_init
+                0x10004f48       0xdc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10004f48                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10005020        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005020                tud_descriptor_device_cb
+                0x10005024        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005024                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10005028        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005028                tud_descriptor_configuration_cb
+                0x1000502c        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1000502c                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10005030       0x74 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10005030                tud_descriptor_string_cb
+                0x10005034       0x74 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005034                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x100050a4       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x100050a8       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x100050b4      0x1a8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x100050b4                pico_get_unique_board_id_string
+                0x100050b8      0x1a8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x100050b8                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x1000525c       0x40 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x1000525c                flash_get_unique_id
+                0x10005260       0x40 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10005260                flash_get_unique_id
  .text.dcd_int_enable
-                0x1000529c        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000529c                dcd_int_enable
+                0x100052a0        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100052a0                dcd_int_enable
  .text.dcd_set_address
-                0x100052a8       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100052a8                dcd_set_address
+                0x100052ac       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100052ac                dcd_set_address
  .text.dcd_connect
-                0x100052bc       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100052bc                dcd_connect
+                0x100052c0       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100052c0                dcd_connect
  .text.dcd_init
-                0x100052cc       0x98 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100052cc                dcd_init
+                0x100052d0       0x98 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100052d0                dcd_init
  .text.dcd_edpt0_status_complete
-                0x10005364       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005364                dcd_edpt0_status_complete
+                0x10005368       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005368                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10005380      0x108 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005380                dcd_edpt_open
+                0x10005384      0x108 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005384                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x10005488        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005488                dcd_edpt_close_all
+                0x1000548c        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000548c                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10005490       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10005490                dcd_edpt_xfer
+                0x10005494       0x24 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005494                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x100054b4       0x38 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054b4                dcd_edpt_stall
+                0x100054b8       0x38 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100054b8                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x100054ec       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100054ec                dcd_edpt_clear_stall
+                0x100054f0       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100054f0                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x1000551c       0x4c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000551c                rp2040_usb_init
+                0x10005520       0x4c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005520                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x10005568       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10005568                hw_endpoint_xfer_start
+                0x1000556c       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000556c                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x100055b8       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100055b8                tud_mounted
+                0x100055bc       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100055bc                tud_mounted
  .text.tud_suspended
-                0x100055c8       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100055c8                tud_suspended
+                0x100055cc       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100055cc                tud_suspended
  .text.tud_inited
-                0x100055d8       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100055d8                tud_inited
+                0x100055dc       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100055dc                tud_inited
  .text.tud_init
-                0x100055ec       0xe4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100055ec                tud_init
+                0x100055f0       0xe4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100055f0                tud_init
  .text.tud_task_ext
-                0x100056d0      0x854 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100056d0                tud_task_ext
+                0x100056d4      0x854 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100056d4                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x10005f24       0x9c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005f24                usbd_open_edpt_pair
+                0x10005f28       0x9c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005f28                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x10005fc0       0x48 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005fc0                usbd_defer_func
+                0x10005fc4       0x48 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10005fc4                usbd_defer_func
  .text.usbd_edpt_open
-                0x10006008       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006008                usbd_edpt_open
+                0x1000600c       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x1000600c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x1000603c       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000603c                usbd_edpt_claim
+                0x10006040       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006040                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10006064       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10006064                usbd_edpt_release
+                0x10006068       0x28 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006068                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x1000608c       0x4c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000608c                usbd_edpt_xfer
+                0x10006090       0x4c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006090                usbd_edpt_xfer
  .text.tud_control_status
-                0x100060d8       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100060d8                tud_control_status
+                0x100060dc       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100060dc                tud_control_status
  .text.tud_control_xfer
-                0x10006108       0xbc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006108                tud_control_xfer
+                0x1000610c       0xbc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x1000610c                tud_control_xfer
  .text.usbd_control_reset
-                0x100061c4       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100061c4                usbd_control_reset
+                0x100061c8       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100061c8                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x100061d8        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100061d8                usbd_control_set_complete_callback
+                0x100061dc        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100061dc                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x100061e4       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100061e4                usbd_control_set_request
+                0x100061e8       0x1c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x100061e8                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10006200       0xfc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10006200                usbd_control_xfer_cb
+                0x10006204       0xfc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006204                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x100062fc       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100062fc                tud_cdc_n_connected
+                0x10006300       0x30 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006300                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x1000632c       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000632c                tud_cdc_n_available
+                0x10006330       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006330                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10006344       0x70 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006344                tud_cdc_n_read
+                0x10006348       0x70 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006348                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x100063b4       0x78 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100063b4                tud_cdc_n_write_flush
+                0x100063b8       0x78 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100063b8                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x1000642c       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x1000642c                tud_cdc_n_write
+                0x10006430       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006430                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10006460       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006460                tud_cdc_n_write_available
+                0x10006464       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006464                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10006478       0x7c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006478                cdcd_init
+                0x1000647c       0x7c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000647c                cdcd_init
  .text.cdcd_reset
-                0x100064f4       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100064f4                cdcd_reset
+                0x100064f8       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100064f8                cdcd_reset
  .text.cdcd_open
-                0x10006520       0xe8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006520                cdcd_open
+                0x10006524       0xe8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10006524                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10006608       0xe4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10006608                cdcd_control_xfer_cb
+                0x1000660c       0xe4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000660c                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x100066ec      0x148 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100066ec                cdcd_xfer_cb
+                0x100066f0      0x148 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100066f0                cdcd_xfer_cb
  .text.tusb_init
-                0x10006834        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006834                tusb_init
+                0x10006838        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006838                tusb_init
  .text.tusb_inited
-                0x10006840        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006840                tusb_inited
+                0x10006844        0x8 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10006844                tusb_inited
  .text.tu_edpt_claim
-                0x10006848       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006848                tu_edpt_claim
+                0x1000684c       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x1000684c                tu_edpt_claim
  .text.tu_edpt_release
-                0x10006898       0x38 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006898                tu_edpt_release
+                0x1000689c       0x38 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x1000689c                tu_edpt_release
  .text.tu_edpt_validate
-                0x100068d0       0x78 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100068d0                tu_edpt_validate
+                0x100068d4       0x78 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100068d4                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10006948       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10006948                tu_edpt_bind_driver
+                0x1000694c       0x34 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x1000694c                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x1000697c       0x70 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000697c                tu_fifo_config
+                0x10006980       0x70 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006980                tu_fifo_config
  .text.tu_fifo_count
-                0x100069ec       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100069ec                tu_fifo_count
+                0x100069f0       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100069f0                tu_fifo_count
  .text.tu_fifo_empty
-                0x10006a18       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006a18                tu_fifo_empty
+                0x10006a1c       0x10 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a1c                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10006a28       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006a28                tu_fifo_remaining
+                0x10006a2c       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a2c                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10006a54       0xa0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006a54                tu_fifo_read
+                0x10006a58       0xa0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006a58                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10006af4       0xec CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006af4                tu_fifo_read_n
+                0x10006af8       0xec CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006af8                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10006be0       0x88 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006be0                tu_fifo_write
+                0x10006be4       0x88 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006be4                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10006c68      0x168 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006c68                tu_fifo_write_n
+                0x10006c6c      0x168 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006c6c                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10006dd0       0x40 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006dd0                tu_fifo_clear
+                0x10006dd4       0x40 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006dd4                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10006e10       0x48 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10006e10                tu_fifo_set_overwritable
+                0x10006e14       0x48 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10006e14                tu_fifo_set_overwritable
  .text.i2c_set_baudrate
-                0x10006e58       0xc4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10006e58                i2c_set_baudrate
+                0x10006e5c       0xc4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10006e5c                i2c_set_baudrate
  .text.i2c_init
-                0x10006f1c       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10006f1c                i2c_init
+                0x10006f20       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10006f20                i2c_init
  .text.i2c_write_blocking
-                0x10006f70       0xd0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10006f70                i2c_write_blocking
- .text.strlen   0x10007040       0x5c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
-                0x10007040                strlen
+                0x10006f74       0xd0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10006f74                i2c_write_blocking
+ .text.strlen   0x10007044       0x5c c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-strlen-stub.o)
+                0x10007044                strlen
  *(.fini)
- .fini          0x1000709c        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x1000709c                _fini
- .fini.__stub   0x100070a0       0xd0 linker stubs
+ .fini          0x100070a0        0x4 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x100070a0                _fini
+ *fill*         0x100070a4        0x4 
+ .fini.__stub   0x100070a8       0xd0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2124,129 +2125,129 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10007170        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10007170                . = ALIGN (0x4)
+ .eh_frame      0x10007178        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10007178                . = ALIGN (0x4)
 
-.glue_7         0x10007170        0x0
- .glue_7        0x10007170        0x0 linker stubs
+.glue_7         0x10007178        0x0
+ .glue_7        0x10007178        0x0 linker stubs
 
-.glue_7t        0x10007170        0x0
- .glue_7t       0x10007170        0x0 linker stubs
+.glue_7t        0x10007178        0x0
+ .glue_7t       0x10007178        0x0 linker stubs
 
-.vfp11_veneer   0x10007170        0x0
- .vfp11_veneer  0x10007170        0x0 linker stubs
+.vfp11_veneer   0x10007178        0x0
+ .vfp11_veneer  0x10007178        0x0 linker stubs
 
-.v4_bx          0x10007170        0x0
- .v4_bx         0x10007170        0x0 linker stubs
+.v4_bx          0x10007178        0x0
+ .v4_bx         0x10007178        0x0 linker stubs
 
-.iplt           0x10007170        0x0
- .iplt          0x10007170        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10007178        0x0
+ .iplt          0x10007178        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10007170      0x540
+.rodata         0x10007178      0x540
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10007170       0x19 CMakeFiles/I2C_display.dir/main.c.obj
- *fill*         0x10007189        0x3 
+                0x10007178       0x19 CMakeFiles/I2C_display.dir/main.c.obj
+ *fill*         0x10007191        0x3 
  .rodata.__bi_78.0
-                0x1000718c        0x8 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x10007194        0x8 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x10007194       0x1b CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x100071af        0x1 
+                0x1000719c       0x1b CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x100071b7        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x100071b0       0x1b CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100071cb        0x1 
+                0x100071b8       0x1b CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100071d3        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x100071cc       0x22 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x100071ee        0x2 
+                0x100071d4       0x22 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100071f6        0x2 
  .rodata.panic.str1.4
-                0x100071f0       0x12 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10007202        0x2 
+                0x100071f8       0x12 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x1000720a        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x10007204        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000720c        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10007210       0x15 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10007225        0x3 
+                0x10007218       0x15 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x1000722d        0x3 
  .rodata._vsnprintf
-                0x10007228      0x1e0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10007230      0x1e0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10007408       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10007410       0x50 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10007458       0x40 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10007460       0x40 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10007498        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100074a0        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x100074a4        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100074ac        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x100074b0        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100074b8        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x100074bc        0x2 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x100074be        0x2 
+                0x100074c4        0x2 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100074c6        0x2 
  .rodata._resetd_driver
-                0x100074c0       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100074c8       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x100074d8       0x13 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x100074eb        0x1 
+                0x100074e0       0x13 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x100074f3        0x1 
  .rodata.__bi_182.0
-                0x100074ec        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100074f4        0xc CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x100074f8       0x2a CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10007522        0x2 
+                0x10007500       0x2a CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x1000752a        0x2 
  .rodata.usbd_desc_cfg
-                0x10007524       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1000752c       0x54 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10007578       0x12 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x1000758a        0x2 
+                0x10007580       0x12 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x10007592        0x2 
  .rodata.usbd_desc_str
-                0x1000758c       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10007594       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x100075a4       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100075ac       0x14 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x100075b8       0x53 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x1000760b        0x1 
+                0x100075c0       0x53 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10007613        0x1 
  .rodata.tud_task_ext
-                0x1000760c       0x8c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10007614       0x8c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10007698       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100076b0                . = ALIGN (0x4)
+                0x100076a0       0x18 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100076b8                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100076b0                . = ALIGN (0x4)
+                0x100076b8                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100076b0                __exidx_start = .
+                0x100076b8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100076b0                __exidx_end = .
-                0x100076b0                . = ALIGN (0x4)
-                0x100076b0                __binary_info_start = .
+                0x100076b8                __exidx_end = .
+                0x100076b8                . = ALIGN (0x4)
+                0x100076b8                __binary_info_start = .
 
-.binary_info    0x100076b0       0x24
+.binary_info    0x100076b8       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr78
-                0x100076b0        0x4 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
+                0x100076b8        0x4 CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
  .binary_info.keep.__bi_ptr22
-                0x100076b4        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
-                0x100076b8        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
                 0x100076bc        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
+ .binary_info.keep.__bi_ptr30
                 0x100076c0        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
+ .binary_info.keep.__bi_ptr38
                 0x100076c4        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
+ .binary_info.keep.__bi_ptr44
                 0x100076c8        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr81
+ .binary_info.keep.__bi_ptr50
                 0x100076cc        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr75
+                0x100076d0        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr81
+                0x100076d4        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x100076d0        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100076d4                __binary_info_end = .
+                0x100076d8        0x4 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100076dc                __binary_info_end = .
 
-.rel.dyn        0x100076d4        0x0
- .rel.iplt      0x100076d4        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100076d4                . = ALIGN (0x4)
+.rel.dyn        0x100076dc        0x0
+ .rel.iplt      0x100076dc        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100076dc                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2255,7 +2256,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
                 0x20000000       0xc0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0xe58 load address 0x100076d4
+.data           0x200000c0      0xe58 load address 0x100076dc
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2392,29 +2393,29 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(.jcr)
                 0x20000f18                . = ALIGN (0x4)
                 0x20000f18                __data_end__ = .
-                0x100076d4                __etext = LOADADDR (.data)
+                0x100076dc                __etext = LOADADDR (.data)
 
-.igot.plt       0x20000f18        0x0 load address 0x1000852c
+.igot.plt       0x20000f18        0x0 load address 0x10008534
  .igot.plt      0x20000f18        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000f18        0x0 load address 0x1000852c
+                0x20000f18        0x0 load address 0x10008534
                 0x20000f18                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x1000852c
+.scratch_x      0x20040000        0x0 load address 0x10008534
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x1000852c                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10008534                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000852c
+.scratch_y      0x20041000        0x0 load address 0x10008534
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x1000852c                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10008534                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000f18      0xd9c
                 0x20000f18                . = ALIGN (0x4)
@@ -2539,8 +2540,8 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x1000852c        0x0
-                0x1000852c                PROVIDE (__flash_binary_end = .)
+.flash_end      0x10008534        0x0
+                0x10008534                PROVIDE (__flash_binary_end = .)
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2622,7 +2623,7 @@ LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/commo
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
-LOAD C:\Users\krzys\AppData\Local\Temp\cc8nxfc8.o
+LOAD C:\Users\krzys\AppData\Local\Temp\cc4IUTgd.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2742,7 +2743,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007fa       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x00000826       0x22 C:\Users\krzys\AppData\Local\Temp\cc8nxfc8.o
+                0x00000826       0x22 C:\Users\krzys\AppData\Local\Temp\cc4IUTgd.o
  .ARM.attributes
                 0x00000848       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

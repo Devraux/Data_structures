@@ -82,4 +82,5 @@ CMakeFiles/I2C_display.dir/main.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/defs.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/structure.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/code.h \
- C:\VSARM\PI_PICO_PROJECTS\I2C_display\buttons/buttons.h
+ C:\VSARM\PI_PICO_PROJECTS\I2C_display\buttons/buttons.h \
+ C:\VSARM\PI_PICO_PROJECTS\I2C_display\menu/menu.h

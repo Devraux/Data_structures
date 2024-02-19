@@ -1,6 +1,7 @@
 #include "pico/stdlib.h"
 #include "lcd_lib/lcd_1602_i2c.h"
 #include "buttons/buttons.h"
+#include "menu/menu.h"
 
 
 
@@ -8,6 +9,7 @@ int main()
 {
     lcd_init();
     buttons_init();
+    menu();
     
     while(1)
     {
