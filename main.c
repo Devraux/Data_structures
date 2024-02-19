@@ -1,6 +1,6 @@
 #include "pico/stdlib.h"
 #include "lcd_lib/lcd_1602_i2c.h"
-#include "encoder_lib/encoder.h"
+
 
 //int8_t encoder_counter = 0;
 

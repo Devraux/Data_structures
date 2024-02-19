@@ -1219,9 +1219,9 @@ Discarded input sections
  .comment       0x00000000       0x4a CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
- .text          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc6v0tSp.o
- .data          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc6v0tSp.o
- .bss           0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cc6v0tSp.o
+ .text          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\ccOyVCkz.o
+ .data          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\ccOyVCkz.o
+ .bss           0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\ccOyVCkz.o
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a(lib_a-calloc.o)
@@ -1437,7 +1437,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\krzys\AppData\Local\Temp\cc6v0tSp.o
+ .boot2         0x10000000      0x100 C:\Users\krzys\AppData\Local\Temp\ccOyVCkz.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2627,7 +2627,7 @@ LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/commo
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
-LOAD C:\Users\krzys\AppData\Local\Temp\cc6v0tSp.o
+LOAD C:\Users\krzys\AppData\Local\Temp\ccOyVCkz.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2747,7 +2747,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007fa       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x00000826       0x22 C:\Users\krzys\AppData\Local\Temp\cc6v0tSp.o
+                0x00000826       0x22 C:\Users\krzys\AppData\Local\Temp\ccOyVCkz.o
  .ARM.attributes
                 0x00000848       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
