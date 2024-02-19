@@ -1,8 +1,8 @@
 #include "buttons.h"
 
-int8_t* button_counter;
+int8_t button_counter;
 
-int8_t* buttons_init()
+void buttons_init()
 {   
 stdio_init_all();
 
@@ -18,5 +18,29 @@ gpio_init(right_button);
 gpio_set_dir(right_button,GPIO_IN);
 gpio_pull_up(right_button);
 
-return button_counter;
+gpio_set_irq_enabled_with_callback(left_button, GPIO_IRQ_EDGE_FALL, true, &irq_handler);
+gpio_set_irq_enabled_with_callback(mode_button, GPIO_IRQ_EDGE_FALL, true, &irq_handler);
+gpio_set_irq_enabled_with_callback(right_button, GPIO_IRQ_EDGE_FALL, true, &irq_handler);
 }
+
+
+void irq_handler()
+{
+    static uint32_t last_button_press = 0;
+    uint32_t current_time = us_to_ms(time_us_32());//debouncing
+    if (gpio_get(left_button) == 0 && (current_time - last_button_press > 150))
+    {
+        button_counter -= 1;
+        last_button_press = current_time;
+    }
+    if (gpio_get(mode_button) == 0 && (current_time - last_button_press > 150))
+    {
+        last_button_press = current_time;
+    }
+    if (gpio_get(right_button) == 0 && (current_time - last_button_press > 150))
+    {
+        button_counter += 1;
+        last_button_press = current_time;
+    }
+}
+

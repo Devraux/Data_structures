@@ -30,6 +30,7 @@ CMakeFiles/I2C_display.dir/buttons/buttons.c.obj: \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\sched.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\types.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\stdio.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\include/hardware/gpio.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/assert.h \
@@ -49,7 +50,6 @@ CMakeFiles/I2C_display.dir/buttons/buttons.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/sio.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/error.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_gpio\include/hardware/gpio.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/sio.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_base\include/hardware/address_mapped.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/interp.h \
@@ -59,4 +59,15 @@ CMakeFiles/I2C_display.dir/buttons/buttons.c.obj: \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/io_bank0.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_irq\include/hardware/irq.h \
  C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/intctrl.h \
- C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/m0plus.h
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/m0plus.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio\include/pico/stdio.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\common\pico_time\include/pico/time.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_timer\include/hardware/timer.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/timer.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/timer.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\hardware_uart\include/hardware/uart.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
+ C:\VSARM\sdk\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h
