@@ -96,19 +96,19 @@ CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.s"
 	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\PI_PICO_PROJECTS\I2C_display\lcd_lib\lcd_1602_i2c.c -o CMakeFiles\I2C_display.dir\lcd_lib\lcd_1602_i2c.c.s
 
-CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj: CMakeFiles/I2C_display.dir/flags.make
-CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj: C:/VSARM/PI_PICO_PROJECTS/I2C_display/encoder_lib/encoder.c
-CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj: CMakeFiles/I2C_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\PI_PICO_PROJECTS\I2C_display\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj -MF CMakeFiles\I2C_display.dir\encoder_lib\encoder.c.obj.d -o CMakeFiles\I2C_display.dir\encoder_lib\encoder.c.obj -c C:\VSARM\PI_PICO_PROJECTS\I2C_display\encoder_lib\encoder.c
+CMakeFiles/I2C_display.dir/buttons/buttons.c.obj: CMakeFiles/I2C_display.dir/flags.make
+CMakeFiles/I2C_display.dir/buttons/buttons.c.obj: C:/VSARM/PI_PICO_PROJECTS/I2C_display/buttons/buttons.c
+CMakeFiles/I2C_display.dir/buttons/buttons.c.obj: CMakeFiles/I2C_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\VSARM\PI_PICO_PROJECTS\I2C_display\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/I2C_display.dir/buttons/buttons.c.obj"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/I2C_display.dir/buttons/buttons.c.obj -MF CMakeFiles\I2C_display.dir\buttons\buttons.c.obj.d -o CMakeFiles\I2C_display.dir\buttons\buttons.c.obj -c C:\VSARM\PI_PICO_PROJECTS\I2C_display\buttons\buttons.c
 
-CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.i"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\PI_PICO_PROJECTS\I2C_display\encoder_lib\encoder.c > CMakeFiles\I2C_display.dir\encoder_lib\encoder.c.i
+CMakeFiles/I2C_display.dir/buttons/buttons.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/I2C_display.dir/buttons/buttons.c.i"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\PI_PICO_PROJECTS\I2C_display\buttons\buttons.c > CMakeFiles\I2C_display.dir\buttons\buttons.c.i
 
-CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.s"
-	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\PI_PICO_PROJECTS\I2C_display\encoder_lib\encoder.c -o CMakeFiles\I2C_display.dir\encoder_lib\encoder.c.s
+CMakeFiles/I2C_display.dir/buttons/buttons.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/I2C_display.dir/buttons/buttons.c.s"
+	C:\VSARM\armcc\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\PI_PICO_PROJECTS\I2C_display\buttons\buttons.c -o CMakeFiles\I2C_display.dir\buttons\buttons.c.s
 
 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/I2C_display.dir/flags.make
 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -1083,7 +1083,7 @@ CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rt
 I2C_display_OBJECTS = \
 "CMakeFiles/I2C_display.dir/main.c.obj" \
 "CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj" \
-"CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj" \
+"CMakeFiles/I2C_display.dir/buttons/buttons.c.obj" \
 "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1160,7 +1160,7 @@ I2C_display_EXTERNAL_OBJECTS =
 
 I2C_display.elf: CMakeFiles/I2C_display.dir/main.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/lcd_lib/lcd_1602_i2c.c.obj
-I2C_display.elf: CMakeFiles/I2C_display.dir/encoder_lib/encoder.c.obj
+I2C_display.elf: CMakeFiles/I2C_display.dir/buttons/buttons.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 I2C_display.elf: CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj

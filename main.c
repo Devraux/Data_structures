@@ -1,15 +1,14 @@
 #include "pico/stdlib.h"
 #include "lcd_lib/lcd_1602_i2c.h"
+#include "buttons/buttons.h"
 
 
-//int8_t encoder_counter = 0;
+//int8_t* button_counter;
 
 int main()
 {
     lcd_init();
-    encoder_init(); 
-    //encoder(&encoder_counter);
-   
+    //*button_counter += 1;
     while(1)
     {
         lcd_set_cursor(0,1);
