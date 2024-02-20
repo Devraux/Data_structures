@@ -9,5 +9,5 @@ struct menu
     struct menu* next;
 };
 
-void menu_val_init();
+struct menu* menu_val_init();
 void print_linked_list(struct menu *p);
