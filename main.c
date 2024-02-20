@@ -4,12 +4,11 @@
 #include "menu/menu.h"
 
 
-
 int main()
 {
-    lcd_init();
+    //lcd_init();
     buttons_init();
-    menu();
+    menu_val_init();
     
     while(1)
     {
@@ -21,8 +20,10 @@ int main()
         sprintf(int_str, "%d", var);
         printf("Var: %s\n", int_str);
 
-        sleep_ms(2000);
+        lcd_set_cursor(1,5);
+        lcd_string(int_str);
+
+        sleep_ms(1000);
         lcd_clear();
     }
-
 }

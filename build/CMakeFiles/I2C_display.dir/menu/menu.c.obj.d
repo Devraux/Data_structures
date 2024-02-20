@@ -70,4 +70,7 @@ CMakeFiles/I2C_display.dir/menu/menu.c.obj: \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\_pthreadtypes.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\sched.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\types.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\stdio.h
+ c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\sys\stdio.h \
+ c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\stdlib.h \
+ c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\stdlib.h \
+ c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\alloca.h

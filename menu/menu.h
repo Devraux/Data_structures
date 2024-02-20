@@ -1,4 +1,13 @@
 #include "pico/stdlib.h"
 #include <stdio.h>
+#include <stdlib.h>
 
-void menu();
+struct menu 
+{
+    char string_1;
+    char string_2;
+    struct menu* next;
+};
+
+void menu_val_init();
+void print_linked_list(struct menu *p);
