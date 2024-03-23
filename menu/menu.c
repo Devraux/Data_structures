@@ -1,14 +1,6 @@
 #include "menu.h"
 
 
-/*
-struct menu 
-{
-    char string_1;
-    char string_2;
-    struct menu* next;
-};
-*/
 
 void print_linked_list(struct menu *p)
 {
@@ -21,7 +13,6 @@ void print_linked_list(struct menu *p)
 
 struct menu* menu_val_init()
 {
-sleep_ms(10000);
 struct menu *head;
 struct menu *parent_1 = NULL;
 struct menu *parent_2 = NULL;
