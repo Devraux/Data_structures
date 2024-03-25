@@ -44,10 +44,13 @@ bool RingBuffer_getChar(RingBuffer *ringbuffer, char *c)
 {
     if(ringbuffer)
     {
-        *c = ringbuffer->RingBuffer[ringbuffer->Tail];
-        ringbuffer->Tail = (ringbuffer->Tail + 1) % ringbuffer->Buffer_Size;
-        ringbuffer->Counter--;
-        return true;
+        if(ringbuffer->Counter != 0)
+        {
+            *c = ringbuffer->RingBuffer[ringbuffer->Tail];
+            ringbuffer->Tail = (ringbuffer->Tail + 1) % ringbuffer->Buffer_Size;
+            ringbuffer->Counter--;
+            return true;
+        }
     }
     return false;
 
@@ -60,6 +63,8 @@ bool RingBuffer_putChar(RingBuffer *ringbuffer, char c)
         ringbuffer->RingBuffer[ringbuffer->Head] = c;
         ringbuffer->Head = (ringbuffer->Head + 1) % ringbuffer->Buffer_Size;
         ringbuffer->Counter++;
+        if(ringbuffer->Counter >= ringbuffer->Buffer_Size)
+            ringbuffer->Counter = ringbuffer->Buffer_Size; // counter can't be bigger than buffr size 
         return true;
     }
     return false;
