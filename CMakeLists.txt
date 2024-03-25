@@ -11,7 +11,10 @@ add_executable(${PROJECT_NAME}
     main.c
     lcd_lib/lcd_1602_i2c.c
     buttons/buttons.c
-    menu/menu.c)
+    menu/menu.c
+    RingBuffer/RingBuffer.c
+    Pool/Pool.c
+    Lists/Lists.c)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(${PROJECT_NAME} 1)

@@ -1684,6 +1684,78 @@ C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+Lists/Lists.obj: Lists/Lists.c.obj
+.PHONY : Lists/Lists.obj
+
+# target to build an object file
+Lists/Lists.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+.PHONY : Lists/Lists.c.obj
+
+Lists/Lists.i: Lists/Lists.c.i
+.PHONY : Lists/Lists.i
+
+# target to preprocess a source file
+Lists/Lists.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/Lists/Lists.c.i
+.PHONY : Lists/Lists.c.i
+
+Lists/Lists.s: Lists/Lists.c.s
+.PHONY : Lists/Lists.s
+
+# target to generate assembly for a file
+Lists/Lists.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/Lists/Lists.c.s
+.PHONY : Lists/Lists.c.s
+
+Pool/Pool.obj: Pool/Pool.c.obj
+.PHONY : Pool/Pool.obj
+
+# target to build an object file
+Pool/Pool.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/Pool/Pool.c.obj
+.PHONY : Pool/Pool.c.obj
+
+Pool/Pool.i: Pool/Pool.c.i
+.PHONY : Pool/Pool.i
+
+# target to preprocess a source file
+Pool/Pool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/Pool/Pool.c.i
+.PHONY : Pool/Pool.c.i
+
+Pool/Pool.s: Pool/Pool.c.s
+.PHONY : Pool/Pool.s
+
+# target to generate assembly for a file
+Pool/Pool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/Pool/Pool.c.s
+.PHONY : Pool/Pool.c.s
+
+RingBuffer/RingBuffer.obj: RingBuffer/RingBuffer.c.obj
+.PHONY : RingBuffer/RingBuffer.obj
+
+# target to build an object file
+RingBuffer/RingBuffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
+.PHONY : RingBuffer/RingBuffer.c.obj
+
+RingBuffer/RingBuffer.i: RingBuffer/RingBuffer.c.i
+.PHONY : RingBuffer/RingBuffer.i
+
+# target to preprocess a source file
+RingBuffer/RingBuffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.i
+.PHONY : RingBuffer/RingBuffer.c.i
+
+RingBuffer/RingBuffer.s: RingBuffer/RingBuffer.c.s
+.PHONY : RingBuffer/RingBuffer.s
+
+# target to generate assembly for a file
+RingBuffer/RingBuffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\I2C_display.dir\build.make CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.s
+.PHONY : RingBuffer/RingBuffer.c.s
+
 buttons/buttons.obj: buttons/buttons.c.obj
 .PHONY : buttons/buttons.obj
 
@@ -1981,6 +2053,15 @@ help:
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... Lists/Lists.obj
+	@echo ... Lists/Lists.i
+	@echo ... Lists/Lists.s
+	@echo ... Pool/Pool.obj
+	@echo ... Pool/Pool.i
+	@echo ... Pool/Pool.s
+	@echo ... RingBuffer/RingBuffer.obj
+	@echo ... RingBuffer/RingBuffer.i
+	@echo ... RingBuffer/RingBuffer.s
 	@echo ... buttons/buttons.obj
 	@echo ... buttons/buttons.i
 	@echo ... buttons/buttons.s

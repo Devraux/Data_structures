@@ -1,5 +1,6 @@
 CMakeFiles/I2C_display.dir/main.c.obj: \
  C:\VSARM\PI_PICO_PROJECTS\I2C_display\main.c \
+ C:\VSARM\PI_PICO_PROJECTS\I2C_display\main.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\VSARM\sdk\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
@@ -86,4 +87,7 @@ CMakeFiles/I2C_display.dir/main.c.obj: \
  C:\VSARM\PI_PICO_PROJECTS\I2C_display\menu/menu.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\stdlib.h \
  c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\machine\stdlib.h \
- c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\alloca.h
+ c:\vsarm\armcc\102021~1.10\arm-none-eabi\include\alloca.h \
+ C:\VSARM\PI_PICO_PROJECTS\I2C_display\RingBuffer/RingBuffer.h \
+ C:\VSARM\PI_PICO_PROJECTS\I2C_display\Lists/Lists.h \
+ C:\VSARM\PI_PICO_PROJECTS\I2C_display\Pool/Pool.h
