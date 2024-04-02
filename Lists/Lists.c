@@ -2,8 +2,31 @@
 
 void print_list(struct Lists *print_data)
 {
-    //to do
+    while(print_data != NULL)
+    {
+        printf("%c", print_data->data); // very simple print func
+        print_data = print_data->next;
+    }
 }
+
+
+void print_list_from_begin(struct Lists* print_data)
+{
+    while(print_data != NULL)
+    {
+        printf("%c", print_data->data); 
+        print_data = print_data->next;
+    }
+}
+void print_list_from_end(struct Lists* print_data)
+{
+while(print_data != NULL)
+    {
+        printf("%c", print_data->data); 
+        print_data = print_data->prev;
+    }
+}
+
 
 struct Lists *List_init()
 {
@@ -24,6 +47,7 @@ struct Lists *List_init()
     parent_2->data = 2;
     parent_3->data = 3;
     parent_4->data = 4;
+
 
     parent_1->next = parent_2; parent_1->prev = NULL;
     parent_2->next = parent_3; parent_2->prev = parent_1; 

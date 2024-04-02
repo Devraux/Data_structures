@@ -12,6 +12,8 @@ struct Lists
 };
 
 struct Lists* List_init();
-void print_list(struct Lists* list);
+void print_list(struct Lists* print_data);
+void print_list_from_begin(struct Lists* print_data);
+void print_list_from_end(struct Lists* print_data);
 
 #endif
