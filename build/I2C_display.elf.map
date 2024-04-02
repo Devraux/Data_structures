@@ -114,19 +114,19 @@ Discarded input sections
  .text.RingBuffer_getCapacity
                 0x00000000        0x4 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .text.RingBuffer_getChar
-                0x00000000       0x28 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
+                0x00000000       0x32 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .text.RingBuffer_putChar
-                0x00000000       0x26 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
+                0x00000000       0x2e CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .debug_info    0x00000000      0x265 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .debug_abbrev  0x00000000       0xd1 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
- .debug_loc     0x00000000      0x221 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
+ .debug_loc     0x00000000      0x258 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .debug_aranges
                 0x00000000       0x48 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .debug_ranges  0x00000000       0x38 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
- .debug_line    0x00000000      0x235 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
+ .debug_line    0x00000000      0x255 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .debug_str     0x00000000      0x274 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .comment       0x00000000       0x4a CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
- .debug_frame   0x00000000       0x80 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
+ .debug_frame   0x00000000       0x84 CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/I2C_display.dir/RingBuffer/RingBuffer.c.obj
  .text          0x00000000        0x0 CMakeFiles/I2C_display.dir/Pool/Pool.c.obj
@@ -140,9 +140,20 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
  .data          0x00000000        0x0 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
  .bss           0x00000000        0x0 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
- .debug_str     0x00000000       0xf5 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .text.print_list
+                0x00000000        0x2 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .text.List_init
+                0x00000000       0x46 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_info    0x00000000      0x1ad CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_abbrev  0x00000000       0xe9 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_loc     0x00000000       0xe2 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_ranges  0x00000000       0x18 CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_line    0x00000000      0x14d CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_str     0x00000000      0x1ef CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
  .comment       0x00000000       0x4a CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
+ .debug_frame   0x00000000       0x3c CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/I2C_display.dir/Lists/Lists.c.obj
  .text          0x00000000        0x0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1507,9 +1518,9 @@ Discarded input sections
  .debug_frame   0x00000000       0xe0 CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
- .text          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\ccs4LEyt.o
- .data          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\ccs4LEyt.o
- .bss           0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\ccs4LEyt.o
+ .text          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cccHPUME.o
+ .data          0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cccHPUME.o
+ .bss           0x00000000        0x0 C:\Users\krzys\AppData\Local\Temp\cccHPUME.o
  .data          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1666,7 +1677,7 @@ LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\krzys\AppData\Local\Temp\ccs4LEyt.o
+ .boot2         0x10000000      0x100 C:\Users\krzys\AppData\Local\Temp\cccHPUME.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3297,7 +3308,7 @@ LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/lib/tinyusb/src/commo
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
-LOAD C:\Users\krzys\AppData\Local\Temp\ccs4LEyt.o
+LOAD C:\Users\krzys\AppData\Local\Temp\cccHPUME.o
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3422,7 +3433,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000852       0x2c CMakeFiles/I2C_display.dir/C_/VSARM/sdk/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x0000087e       0x22 C:\Users\krzys\AppData\Local\Temp\ccs4LEyt.o
+                0x0000087e       0x22 C:\Users\krzys\AppData\Local\Temp\cccHPUME.o
  .ARM.attributes
                 0x000008a0       0x1e c:/vsarm/armcc/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
