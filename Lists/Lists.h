@@ -4,12 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Lists
+typedef struct List
 {
-   char data;
-   struct  Lists *next;
-   struct Lists *prev;
-};
+   uint8_t data;
+   struct  List *next;
+   struct List *prev;
+}List;
 
 struct Lists* List_init();
 void print_list(struct Lists* print_data);
